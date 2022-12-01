@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Проект на JavaScript «Счётчик калорий» от HTML Academy",
   "private": true,
-  "main": "./js/index.js",
+  "main": "index.js",
   "scripts": {
-    "build": "parcel build ./Калькулятор.html --no-source-maps",
-    "deploy": "parcel build ./Калькулятор.html --public-url /kilgden.github.io --no-source-maps && gh-pages -d dist",
-    "start": "parcel ./Калькулятор.html --open "
+    "build": "parcel build ./src/index.html --no-source-maps",
+    "deploy": "parcel build ./src/index.html --public-url /kilgden.github.io --no-source-maps && gh-pages -d dist",
+    "start": "parcel ./src/index.html --open "
   },
   "author": "Ivan Nefagin <nefagin.frontend@gmail.com>",
   "license": "ISC",
